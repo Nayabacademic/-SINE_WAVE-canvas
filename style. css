@@ -1,0 +1,31 @@
+body{
+    margin:40px;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+#canvas{
+    background-color:black;
+    box-shadow: 35px 35px 40px rgba(0,0,0,0.35), -35px -35px 40px rgba(0,0,0,0.35);
+}
+
+#control_con{
+    background-color:rgba(255,255,255,.3);
+    font-size:35px;
+    backdrop-filter: blur(8px);
+    padding:5px;
+    z-index:1;
+    text-align:center;
+}
+#w_pro{
+    
+}
+#w_col{
+}
+.slider{
+    width:280px;
+}
+
+.label1{
+margin-right:40px;
+margin-left:40px;
+}
+

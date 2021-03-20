@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+    <canvas id ="canvas"></canvas>
+    
+    <div id="control_con">
+    
+          <div id="w_pro">
+          
+             <input type="range" id="y_pos" class = "slider" name="y_pos"min="-50" max = "1150" value="500"> 
+             
+  
+             <input type="range" id="amp" class = "slider" name="amp"min = "-800" max="800" value = "30">
+             
+             <input type="range" id="wav_len" class = "slider" name="wav_len" min = "0" max = "500" value = "30">
+             
+<label for="y_pos" class="label1">Y POSITION  </label>
+                     <label for="amp" class="label1">AMPLITUDE  </label>
+                    <label for="wav_len" class="label1">WAVELENGTH</label>
+
+             <br />
+             
+             <input type="range" id="fre"  class="slider" name="fre" min = "-100" max = "100" value="-5">
+             
+             <input type="range" id="fre2" class="slider" name="fre2"  min = "0" max = "50" value="3">
+             
+                 <input type="range" id="a"  class = "slider" name = "a"  min = "0" max = "500" value = "100">
+                 
+              <label for="fre" class="label1">FREQUENCY</label>
+             <label for="fre2" class="label1">FREQUENCY-Y</label>
+             <label for="a" class="label1">ALPHA</label>
+          </div>  
+           
+            <div id="w_col">
+             <input type="range" id="h"  name"h" class = "slider" min = "0" max = "360" value = "300">
+             
+            <input type="range" id="s"  name= "s" class = "slider" min = "0" max = "100" value = "100">
+       
+            <input type="range" id="l" name="l" class = "slider" min = "0" max = "100" value = "50">
+             <label for="h" class="label1">HUE</label>
+             <label for="s"class="label1">SATURATION</label>
+             <label for="l" class="label1">VALUE</label>
+
+           </div>     
+       </div>
+    </body>
+</html>
